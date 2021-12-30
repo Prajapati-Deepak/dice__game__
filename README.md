@@ -1,2 +1,2 @@
 # dice__game__
-Simple dice game 
+Simple dice game  based on javascript 
