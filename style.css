@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    position:relative;
+}
+.section1,.section2{
+    text-align: center;
+    padding:7%;
+     
+}
+.section1{
+    background-color:#e4afac;
+    border-radius:8px 0px 0px 8px;
+}
+.section2{
+    background-color:#e4afac;
+    border-radius:  0px 8px 8px 0px;
+}
+.currentscore{
+    background-color: #c7365f;
+    margin:13rem 1rem 2rem;
+    padding :6% 2%;
+    margin:10rem 5rem 1rem ;
+    border-radius:10px;
+}
+.board{ 
+    margin:5% 15% 2.8%;
+}
+i{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+#score--0,#score--1{
+    font-size:4rem;
+}
+.background{
+    position:relative;
+}
+.btn{
+    position:absolute;
+    z-index:3;
+    left: 50%;
+   transform: translateX(-50%);
+}
+.new {
+    top: 4rem;
+  }
+  .roll {
+    top: 24rem;
+  }
+  .hold {
+    top: 29rem;
+  }
+  .dice {
+    position: absolute;
+    left: 50%;
+    top: 11rem;
+    transform: translateX(-50%);
+    height: 8rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  }
+  .hidden{
+      display:none;
+  }
+  .active{
+    background-color:#FFA900;
+  }
+  .winner{
+      background-color:rgb(80, 74, 74) ;
+  }
